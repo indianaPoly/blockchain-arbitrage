@@ -25,8 +25,8 @@ const getPriceFromTick = (tick) => {
  */
 const fetchLiquidityPools = async () => {
     const BASE_URL = "https://gateway.thegraph.com/api";
-    const API_KEY = "36d967a9b4c1e94751dc4eb807acacb0";
-    const ID = "5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV";
+    const API_KEY = "";
+    const ID = "";
     const SUBGRAPH_URL = `${BASE_URL}/${API_KEY}/subgraphs/id/${ID}`;
 
     const query = `
